@@ -10,6 +10,7 @@ end
 gem 'rails', '~> 5.1.5'
 # Gemfile
 gem 'pg'
+gem 'concurrent-ruby', '~> 1.0.5'
 group :test do
   gem 'rspec-rails', '~> 3.7', '>= 3.7.2'
   gem 'database_cleaner', '~> 1.6', '>= 1.6.2'
