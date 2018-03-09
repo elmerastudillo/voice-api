@@ -22,3 +22,11 @@ production:
   pool: 5
   username: postgres
   password: postgres
+
+  production:
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  database: <%= ENV['postgres://dtlzcssofqkbph:6f06e5de1fe3fe1bb93d373b1b8b8aa77b5cf8ae9fecae512b283fc6e81457fa@ec2-54-235-66-24.compute-1.amazonaws.com:5432/d5jhd2ot0egcm6'] %>
+  username: <%= ENV['astudilloelmer@icloud.com'] %>
+  password: <%= ENV['Wolverine65'] %>
